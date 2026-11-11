@@ -1,0 +1,25 @@
+# 相依套件與建置輸出
+node_modules/
+dist/
+
+# 含密碼的設定，不可上傳
+.env
+.env.*
+!.env.example
+AGENTS.md
+
+# AI 工程區與參考快照（含個人資料）
+codex/
+example/
+
+# 系統與編輯器
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# 資料庫匯出檔
+*.sql
+!deploy/*.sql
+*.sql.gz
